@@ -20,7 +20,7 @@ class discordClient(discord.Client):
                 global debug
                 global liveCheck
                 embed = discord.Embed(color=discord.Color(0xff0000), timestamp=datetime.datetime.now())
-                embed.set_footer(text="bot by Woovie#5555 | https://github.com/woovie")
+                embed.set_footer(text="bot by Woovie#5555 | https://github.com/woovie/bffbot")
                 embed.add_field(name="live?", value=live)
                 embed.add_field(name="debug?", value=debug)
                 embed.add_field(name="last live check", value=liveCheck)
